@@ -186,6 +186,9 @@ define(
 
 		function getAdjustedValues( new_values )
 		{
+			
+			alert("getAdjustedValues!");
+			
 			var result = { };
 
 			for ( var key in new_values )
