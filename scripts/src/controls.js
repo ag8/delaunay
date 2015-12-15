@@ -40,6 +40,7 @@ define(
 
 		function controlUpdated( element )
 		{
+			alert("controlUpdated");
 			clearTimeout( timeout_id );
 			
 			timeout_id = setTimeout(
