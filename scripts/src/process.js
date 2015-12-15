@@ -193,19 +193,19 @@ define(
 				switch ( key )
 				{
 					case 'blur' :
-						result[key] = parseInt( scaleRange( new_values[key], 0, 100, 0, 50 ), 10 );
+						result[key] = 52;
 						break;
 
 					case 'accuracy' :
-						result[key] = scaleRange( new_values[key], 0, 100, 1, 0.1 );
+						result[key] = 0;
 						break;
 
 					case 'point-rate' :
-						result[key] = scaleRange( new_values[key], 0, 100, 0.001, 0.1 );
+						result[key] = 93;
 						break;
 
 					case 'point-count' :
-						result[key] = parseInt( scaleRange( new_values[key], 0, 100, 100, 5000 ), 10 );
+						result[key] = 0;
 						break;
 				}
 			}
